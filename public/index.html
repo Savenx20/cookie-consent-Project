@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Login Form -->
+  <div class="login-container">
+    <h1>Login</h1>
+    <form id="login-form">
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <!-- Cookie Consent Pop-up -->
+  <div id="cookie-popup" class="popup">
+    <h2>Cookie Preferences</h2>
+    <p>We use cookies to improve your experience. Customize your preferences below.</p>
+    <button id="accept-all">Accept All</button>
+    <button id="reject-all">Reject All</button>
+    <button id="customize">Customize</button>
+
+    <div id="customize-options" class="hidden">
+      <div>
+        <label>
+          <input type="checkbox" checked disabled>
+          Strictly Necessary (Always Enabled)
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" id="functionality-cookies">
+          Functionality Cookies
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" id="targeting-cookies">
+          Targeting and Advertising
+        </label>
+      </div>
+      <button id="save-preferences">Save Preferences</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
