@@ -1,0 +1,16 @@
+{
+    "name": "cookie-consent-manager",
+    "version": "1.0.0",
+    "description": "Custom cookie consent manager with login page",
+    "main": "app.js",
+    "dependencies": {
+        "js-cookie": "^3.0.5",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "scripts": {
+        "start": "npx http-server public"
+    },
+    "author": "Your Name",
+    "license": "ISC"
+}
